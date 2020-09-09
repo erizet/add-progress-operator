@@ -1,0 +1,26 @@
+{
+  "name": "add-progress-operator",
+  "version": "0.9.0",
+  "description": "An rxjs operator that adds progress information.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": ".\\node_modules\\.bin\\tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erizet/add-progress-operator"
+  },
+  "keywords": [],
+  "author": "Erik Zetterqvist",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
